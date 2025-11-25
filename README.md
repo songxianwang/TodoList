@@ -1,12 +1,10 @@
-这份基于 **FastAPI** 的简易待办事项（Todo List）API 教程，旨在快速构建一个具备 **CRUD**（增删改查）功能的后端服务。
-
-为了保持简单，我将使用\*\*内存（List列表）\*\*来模拟数据库存储数据。
+**FastAPI** 的简易待办事项（Todo List）API ，旨在快速构建一个具备 **CRUD**（增删改查）功能的后端服务。
 
 -----
 
 ### 1\. 环境准备
 
-首先，确保已经安装了 Python。然后安装 FastAPI 和 ASGI 服务器（Uvicorn）：
+首先，确保已经安装了 Python，然后安装 FastAPI 和 ASGI 服务器（Uvicorn）：
 
 ```bash
 pip install fastapi uvicorn
