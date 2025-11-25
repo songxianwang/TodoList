@@ -4,7 +4,7 @@ from src.urls.todo_url import todo_app
 app = FastAPI(
     title="简易待办事项 API",
     description="FastAPI => Todo List",
-    version="1.0.0"
+    version="v0.2"
 )
 
 @app.get("/",tags=["介绍项目"])
